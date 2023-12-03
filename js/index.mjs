@@ -47,11 +47,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     .attr("transform", `translate(${marginLeft},0)`)
     .call(d3.axisLeft(y));
 
-  function onMouseOver(e) {
-    console.log(this);
-    console.log(e);
-  }
-
   svg
     .append("g")
     .attr("fill", "steelblue")
